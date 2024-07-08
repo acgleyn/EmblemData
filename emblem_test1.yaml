@@ -1,0 +1,13 @@
+train: C:\Users\dvus6zc\OneDrive - Volkswagen Group of America\VSC\EmblemTesting\CarEmblem_Test1\train\images
+val: C:\Users\dvus6zc\OneDrive - Volkswagen Group of America\VSC\EmblemTesting\CarEmblem_Test1\valid\images
+test: C:\Users\dvus6zc\OneDrive - Volkswagen Group of America\VSC\EmblemTesting\CarEmblem_Test1\test\images
+
+nc: 4
+names: ['Audi', 'Honda', 'Hyundai', 'Volkswagen']
+
+roboflow:
+  workspace: airconditioner
+  project: car-emblems
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/airconditioner/car-emblems/dataset/3
